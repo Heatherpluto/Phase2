@@ -1,0 +1,36 @@
+﻿<Properties StartupConfiguration="{A804DE9D-61B1-4072-B313-9E01498C20BF}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.pdfApi PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="pdfApi/Model/PdfFile.cs">
+    <Files>
+      <File FileName="pdfApi/Program.cs" Line="20" Column="22" />
+      <File FileName="pdfApi/Controllers/PdfFilesController.cs" Line="15" Column="1" />
+      <File FileName="pdfApi/WeatherForecast.cs" Line="1" Column="1" />
+      <File FileName="pdfApi/appsettings.json" Line="1" Column="1" />
+      <File FileName="pdfApi/Model/PdfFile.cs" Line="3" Column="25" />
+      <File FileName="pdfApi/Data/PdfUploaderDB.cs" Line="11" Column="10" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="pdfApi" expanded="True">
+            <Node name="pdfApi">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Data" expanded="True" />
+              <Node name="Model" expanded="True">
+                <Node name="PdfFile.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/heath/Documents/MSA/MSA2024P2/backend/pdfApi/pdfApi/Controllers/PdfFilesController.cs" relfile="pdfApi/Controllers/PdfFilesController.cs" line="22" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>
