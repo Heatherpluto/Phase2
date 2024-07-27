@@ -6,3 +6,5 @@ pdfApi/pdfApi/appsettings.json
 *.json
 pdfApi/.vs/pdfApi/xs/project-cache/pdfApi-Debug.json
 /pdfApi/pdfApi/bin
+/pdfApi/.vs
+/pdfApi/pdfApi/obj
