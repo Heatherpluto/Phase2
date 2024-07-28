@@ -10,6 +10,7 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("39a9d9b7-2c14-4251-b164-3a8b146d8c30")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("pdfApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]

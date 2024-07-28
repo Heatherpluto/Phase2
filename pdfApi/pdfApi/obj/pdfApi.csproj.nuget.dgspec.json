@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/heath/Documents/MSA/MSA2024P2/backend/pdfApi/pdfApi/pdfApi.csproj": {}
+    "/Users/heath/Documents/MSA/Phase2/pdfApi/pdfApi/pdfApi.csproj": {}
   },
   "projects": {
-    "/Users/heath/Documents/MSA/MSA2024P2/backend/pdfApi/pdfApi/pdfApi.csproj": {
+    "/Users/heath/Documents/MSA/Phase2/pdfApi/pdfApi/pdfApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/heath/Documents/MSA/MSA2024P2/backend/pdfApi/pdfApi/pdfApi.csproj",
+        "projectUniqueName": "/Users/heath/Documents/MSA/Phase2/pdfApi/pdfApi/pdfApi.csproj",
         "projectName": "pdfApi",
-        "projectPath": "/Users/heath/Documents/MSA/MSA2024P2/backend/pdfApi/pdfApi/pdfApi.csproj",
+        "projectPath": "/Users/heath/Documents/MSA/Phase2/pdfApi/pdfApi/pdfApi.csproj",
         "packagesPath": "/Users/heath/.nuget/packages/",
-        "outputPath": "/Users/heath/Documents/MSA/MSA2024P2/backend/pdfApi/pdfApi/obj/",
+        "outputPath": "/Users/heath/Documents/MSA/Phase2/pdfApi/pdfApi/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/heath/.nuget/NuGet/NuGet.Config"
@@ -45,15 +45,53 @@
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.20, )"
+              "version": "[6.0.32, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.32, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.32, )"
             },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
               "version": "[6.0.1, )"
             },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "OpenAI": {
+              "target": "Package",
+              "version": "[1.11.0, )"
+            },
+            "OpenAI-DotNet": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
+            "OpenAI.Gpt3": {
+              "target": "Package",
+              "version": "[1.0.3, )"
+            },
+            "PdfPig": {
+              "target": "Package",
+              "version": "[0.1.8, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.5.0, )"
+            },
+            "System.Net.Http": {
+              "target": "Package",
+              "version": "[4.3.4, )"
+            },
+            "System.Net.Http.Json": {
+              "target": "Package",
+              "version": "[8.0.0, )"
             }
           },
           "imports": [

@@ -4,13 +4,27 @@
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <DockerComposeProjectPath>../docker-compose.dcproj</DockerComposeProjectPath>
+    <UserSecretsId>39a9d9b7-2c14-4251-b164-3a8b146d8c30</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
     <PackageReference Include="Azure.Storage.Blobs" Version="12.21.0" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.20" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.32" />
     <PackageReference Include="Microsoft.Extensions.Configuration" Version="6.0.1" />
+    <PackageReference Include="PdfPig" Version="0.1.8" />
+    <PackageReference Include="System.Net.Http" Version="4.3.4" />
+    <PackageReference Include="System.Net.Http.Json" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Http" Version="6.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.32" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.32">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="OpenAI" Version="1.11.0" />
+    <PackageReference Include="OpenAI.Gpt3" Version="1.0.3" />
+    <PackageReference Include="OpenAI-DotNet" Version="8.1.1" />
   </ItemGroup>
 
   <ItemGroup>
