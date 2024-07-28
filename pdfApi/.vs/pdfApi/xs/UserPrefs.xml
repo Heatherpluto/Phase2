@@ -1,8 +1,8 @@
-﻿<Properties StartupConfiguration="{A804DE9D-61B1-4072-B313-9E01498C20BF}|Default">
+﻿<Properties StartupConfiguration="{7445FDF7-C0FD-47B1-923D-0EB070002DE7}|Default">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <Breakpoint file="/Users/heath/Documents/MSA/MSA2024P2/backend/pdfApi/pdfApi/Controllers/PdfFilesController.cs" relfile="pdfApi/Controllers/PdfFilesController.cs" line="22" column="1" />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.pdfApi PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workbench ActiveDocument="pdfApi/Model/PdfFile.cs">
     <Files>
       <File FileName="pdfApi/Program.cs" Line="20" Column="22" />
@@ -28,9 +28,8 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/heath/Documents/MSA/MSA2024P2/backend/pdfApi/pdfApi/Controllers/PdfFilesController.cs" relfile="pdfApi/Controllers/PdfFilesController.cs" line="22" column="1" />
-    </BreakpointStore>
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.pdfApi PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.ItemProperties.docker-compose PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>
