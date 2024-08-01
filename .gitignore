@@ -13,3 +13,6 @@ pdfApi/pdfApi/appsettings.json
 pdfApi/.vs/pdfApi/xs/project-cache/pdfApi-Debug.json
 pdfApi/.vs/pdfApi/xs/project-cache/pdfApi-Debug.json
 /my-app/node_modules
+/pdfApi/bin
+/pdfApi/obj
+/pdfApi/.vs
