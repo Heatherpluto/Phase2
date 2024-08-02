@@ -17,9 +17,9 @@ The AI Cloud File Storage System is a full-stack web application with the follow
 ## Features
 
 - **CRUD Operations**: Basic Create, Read, Update, and Delete operations for PDF files.
-- **File Upload**: Upload PDF files (less than two pages) to Microsoft Blob Storage.
+- **File Upload**: Upload PDF files (less than two pages less than 1000 tokens) to Microsoft Blob Storage.
 - **PDF Summarization**: Automatically generate summaries for uploaded PDF files using OpenAI API.
-- **Search Functionality**: Search for PDF files by name or ID (case and space sensitive).
+- **Search Functionality**: Search for PDF files by name or ID.
 - **Theming**: Switch between dark and light themes.
 - **Unit Testing**: Includes a comprehensive unit test suite.
 - **React Router**: Implemented for efficient client-side routing.
