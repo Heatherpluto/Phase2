@@ -53,3 +53,8 @@ You can access the deployed application [here](https://aifilestoragesystemweb.az
 - Node.js
 - .NET SDK
 - Docker
+
+### Notice you may not able to run this project by clone this repository
+
+The connection string and openai key are ignored, so you may try the functionalities by accessing the website [here](https://aifilestoragesystemweb.azurewebsites.net).
+If the MSA team requires to have all the information please contanct me with this email heatherpluto@gmail.com or songyvze2021@outlook.com
