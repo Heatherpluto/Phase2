@@ -1,6 +1,6 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 using Moq;
@@ -28,7 +28,7 @@ namespace pdfApi.Tests.Controllers
             _configurationMock = new Mock<IConfiguration>();
 
             var options = new DbContextOptionsBuilder<PdfDbContext>()
-                //.UseInMemoryDatabase(databaseName: "PdfFilesDatabase")
+                .UseInMemoryDatabase(databaseName: "PdfFilesDatabase")
                 .Options;
             _context = new PdfDbContext(options);
 

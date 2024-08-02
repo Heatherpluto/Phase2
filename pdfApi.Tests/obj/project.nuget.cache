@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "atUHIwZelLeGOqimmb0El0G1jc9xnu8AgSg/m4p/U9BeKjnuQxGcU61KiUlWQP/b8nRGythSimWsDaIXwuSZkQ==",
-  "success": false,
+  "dgSpecHash": "SsJTwfjV5sfYu0KKkwKscjAyYzDDywIgmU6RrJ2JYu1noSHy1vS2EI2Mid0cnubzZXotTE0XfRVa/5dFoDoiEw==",
+  "success": true,
   "projectFilePath": "/Users/heath/Documents/MSA/Phase2/pdfApi.Tests/pdfApi.Tests.csproj",
   "expectedPackageFiles": [
     "/Users/heath/.nuget/packages/azure.core/1.41.0/azure.core.1.41.0.nupkg.sha512",
@@ -221,13 +221,13 @@
     "/Users/heath/.nuget/packages/system.xml.xmldocument/4.3.0/system.xml.xmldocument.4.3.0.nupkg.sha512",
     "/Users/heath/.nuget/packages/system.xml.xpath/4.3.0/system.xml.xpath.4.3.0.nupkg.sha512",
     "/Users/heath/.nuget/packages/system.xml.xpath.xdocument/4.3.0/system.xml.xpath.xdocument.4.3.0.nupkg.sha512",
-    "/Users/heath/.nuget/packages/xunit/2.4.1/xunit.2.4.1.nupkg.sha512",
+    "/Users/heath/.nuget/packages/xunit/2.9.0/xunit.2.9.0.nupkg.sha512",
     "/Users/heath/.nuget/packages/xunit.abstractions/2.0.3/xunit.abstractions.2.0.3.nupkg.sha512",
-    "/Users/heath/.nuget/packages/xunit.analyzers/0.10.0/xunit.analyzers.0.10.0.nupkg.sha512",
-    "/Users/heath/.nuget/packages/xunit.assert/2.4.1/xunit.assert.2.4.1.nupkg.sha512",
-    "/Users/heath/.nuget/packages/xunit.core/2.4.1/xunit.core.2.4.1.nupkg.sha512",
-    "/Users/heath/.nuget/packages/xunit.extensibility.core/2.4.1/xunit.extensibility.core.2.4.1.nupkg.sha512",
-    "/Users/heath/.nuget/packages/xunit.extensibility.execution/2.4.1/xunit.extensibility.execution.2.4.1.nupkg.sha512",
+    "/Users/heath/.nuget/packages/xunit.analyzers/1.15.0/xunit.analyzers.1.15.0.nupkg.sha512",
+    "/Users/heath/.nuget/packages/xunit.assert/2.9.0/xunit.assert.2.9.0.nupkg.sha512",
+    "/Users/heath/.nuget/packages/xunit.core/2.9.0/xunit.core.2.9.0.nupkg.sha512",
+    "/Users/heath/.nuget/packages/xunit.extensibility.core/2.9.0/xunit.extensibility.core.2.9.0.nupkg.sha512",
+    "/Users/heath/.nuget/packages/xunit.extensibility.execution/2.9.0/xunit.extensibility.execution.2.9.0.nupkg.sha512",
     "/Users/heath/.nuget/packages/xunit.runner.visualstudio/2.4.3/xunit.runner.visualstudio.2.4.3.nupkg.sha512",
     "/Users/heath/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.31/microsoft.aspnetcore.app.ref.6.0.31.nupkg.sha512",
     "/Users/heath/.nuget/packages/microsoft.netcore.app.ref/6.0.31/microsoft.netcore.app.ref.6.0.31.nupkg.sha512"
@@ -239,15 +239,6 @@
       "warningLevel": 1,
       "message": "Package 'Microsoft.AspNet.WebApi.Core 5.2.7' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
       "libraryId": "Microsoft.AspNet.WebApi.Core",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    },
-    {
-      "code": "NU1605",
-      "level": "Error",
-      "message": "Detected package downgrade: xunit from 2.9.0 to 2.4.1. Reference the package directly from the project to select a different version. \n pdfApi.Tests -> pdfApi -> xunit (>= 2.9.0) \n pdfApi.Tests -> xunit (>= 2.4.1)",
-      "libraryId": "xunit",
       "targetGraphs": [
         "net6.0"
       ]

@@ -1,39 +1,30 @@
 ﻿<Properties StartupConfiguration="{A804DE9D-61B1-4072-B313-9E01498C20BF}|Default">
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="../pdfApi.Tests/Controllers/PdfFilesControllerTests.cs">
+  <MonoDevelop.Ide.ItemProperties.docker-compose PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.pdfApi PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="pdfApi/Controllers/PdfFilesController.cs">
     <Files>
-      <File FileName="pdfApi/Program.cs" Line="33" Column="11" />
+      <File FileName="pdfApi/Program.cs" />
       <File FileName="pdfApi/Controllers/PdfFilesController.cs" Line="13" Column="36" />
-      <File FileName="pdfApi/Model/PdfFile.cs" Line="11" Column="1" />
-      <File FileName="pdfApi/Data/PdfDbContext.cs" Line="2" Column="13" />
-      <File FileName="pdfApi/appsettings.json" Line="13" Column="72" />
-      <File FileName="../pdfApi.Tests/UnitTest1.cs" Line="1" Column="1" />
-      <File FileName="../pdfApi.Tests/Controllers/PdfFilesControllerTests.cs" Line="31" Column="19" />
+      <File FileName="pdfApi/Data/PdfDbContext.cs" />
+      <File FileName="pdfApi/appsettings.json" />
+      <File FileName="pdfApi/Dockerfile" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="pdfApi">
-            <Node name="pdfApi" selected="True">
-              <Node name="Dependencies" expanded="True" />
+          <Node name="pdfApi" expanded="True">
+            <Node name="pdfApi">
               <Node name="Controllers" expanded="True" />
-              <Node name="Data" expanded="True" />
-              <Node name="Models" expanded="True" />
-            </Node>
-            <Node name="pdfApi.Tests">
-              <Node name="Dependencies" expanded="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.pdfApi.Tests FirstBuild="True" />
-  <MonoDevelop.Ide.ItemProperties.pdfApi PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
-  <MonoDevelop.Ide.ItemProperties.docker-compose PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
 </Properties>
