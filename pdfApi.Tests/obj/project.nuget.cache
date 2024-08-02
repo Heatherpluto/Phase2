@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "SsJTwfjV5sfYu0KKkwKscjAyYzDDywIgmU6RrJ2JYu1noSHy1vS2EI2Mid0cnubzZXotTE0XfRVa/5dFoDoiEw==",
+  "dgSpecHash": "wKPDNXRsiW5bVvnm9uLX9U1S5v6dKb9cpTJcygMQEo0Qp3yMfp6RaREXF0usaWZmqaNiY2Bn1/p5EDxDTiv0hA==",
   "success": true,
   "projectFilePath": "/Users/heath/Documents/MSA/Phase2/pdfApi.Tests/pdfApi.Tests.csproj",
   "expectedPackageFiles": [
@@ -65,6 +65,7 @@
     "/Users/heath/.nuget/packages/microsoft.entityframeworkcore/6.0.32/microsoft.entityframeworkcore.6.0.32.nupkg.sha512",
     "/Users/heath/.nuget/packages/microsoft.entityframeworkcore.abstractions/6.0.32/microsoft.entityframeworkcore.abstractions.6.0.32.nupkg.sha512",
     "/Users/heath/.nuget/packages/microsoft.entityframeworkcore.analyzers/6.0.32/microsoft.entityframeworkcore.analyzers.6.0.32.nupkg.sha512",
+    "/Users/heath/.nuget/packages/microsoft.entityframeworkcore.inmemory/6.0.32/microsoft.entityframeworkcore.inmemory.6.0.32.nupkg.sha512",
     "/Users/heath/.nuget/packages/microsoft.entityframeworkcore.relational/6.0.32/microsoft.entityframeworkcore.relational.6.0.32.nupkg.sha512",
     "/Users/heath/.nuget/packages/microsoft.entityframeworkcore.sqlserver/6.0.32/microsoft.entityframeworkcore.sqlserver.6.0.32.nupkg.sha512",
     "/Users/heath/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
