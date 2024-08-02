@@ -7,7 +7,7 @@ Welcome to the AI Cloud File Storage System, developed as part of the MSA Phase 
 The AI Cloud File Storage System is a full-stack web application with the following features:
 
 - **Frontend**: Developed using React and TypeScript, styled with Material-UI (MUI) for a visually appealing and responsive design on both computer and mobile devices.
-- **Backend**: Built with .NET C# and Entity Framework Core (EFCore) for efficient database operations.
+- **Backend**: Built with .NET6 C# and Entity Framework Core (EFCore) for efficient database operations.
 - **Database**: Utilizes Microsoft SQL Server for data storage.
 - **AI Integration**: Integrates OpenAI API to summarize PDF content.
 - **State Management**: Uses Redux for global state management.
