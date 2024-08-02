@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
-import { TextField, Button, Container, Typography, CircularProgress } from '@mui/material';
+import { TextField, Button, Container, Typography, Box } from '@mui/material';
+import { PuffLoader } from 'react-spinners';
 
 const SearchComponent: React.FC = () => {
   const [searchTerm, setSearchTerm] = useState<string>('');
@@ -10,8 +11,8 @@ const SearchComponent: React.FC = () => {
   const navigate = useNavigate();
 
   const handleSearch = async () => {
+    setLoading(true);
     try {
-      setLoading(true);
       console.log('Searching for PDF file with:', searchTerm); // Added logging
       const endpoint = searchBy === 'id'
         ? `https://aifilestoragesystemapi.azurewebsites.net/PdfFiles/${searchTerm}`
@@ -70,10 +71,16 @@ const SearchComponent: React.FC = () => {
         fullWidth
         margin="normal"
       />
-      <Button variant="contained" color="primary" onClick={handleSearch} disabled={loading}>
-        Search
-      </Button>
-      {loading && <CircularProgress />}
+      <Box my={2} display="flex" justifyContent="center" alignItems="center">
+        <Button variant="contained" color="primary" onClick={handleSearch} disabled={loading}>
+          {loading ? 'Searching...' : 'Search'}
+        </Button>
+        {loading && (
+          <Box ml={2}>
+            <PuffLoader color="#123abc" loading={loading} size={24} />
+          </Box>
+        )}
+      </Box>
     </Container>
   );
 };

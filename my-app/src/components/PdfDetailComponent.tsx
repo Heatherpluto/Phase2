@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import axios from 'axios';
-import { Button, Container, Typography, Box, TextField, CircularProgress } from '@mui/material';
+import { Button, Container, Typography, Box, TextField } from '@mui/material';
+import { PuffLoader } from 'react-spinners';
 
 interface PdfFile {
   id: number;
@@ -20,8 +21,8 @@ const PdfDetailComponent: React.FC = () => {
   const [loading, setLoading] = useState<boolean>(false);
 
   const handleDelete = async () => {
+    setLoading(true);
     try {
-      setLoading(true);
       await axios.delete(`https://aifilestoragesystemapi.azurewebsites.net/PdfFiles/${pdfFile.id}`);
       alert('File deleted successfully');
       navigate('/');
@@ -34,8 +35,8 @@ const PdfDetailComponent: React.FC = () => {
   };
 
   const handleUpdate = async () => {
+    setLoading(true);
     try {
-      setLoading(true);
       const updatedFile = { ...pdfFile, fileName, summary };
       await axios.put(`https://aifilestoragesystemapi.azurewebsites.net/PdfFiles/${pdfFile.id}`, updatedFile);
       alert('File updated successfully');
@@ -75,13 +76,17 @@ const PdfDetailComponent: React.FC = () => {
       </Box>
       <Box my={2}>
         <Button variant="contained" color="secondary" onClick={handleUpdate} style={{ marginRight: '10px' }} disabled={loading}>
-          Update
+          {loading ? 'Updating...' : 'Update'}
         </Button>
         <Button variant="contained" color="error" onClick={handleDelete} disabled={loading}>
-          Delete
+          {loading ? 'Deleting...' : 'Delete'}
         </Button>
       </Box>
-      {loading && <CircularProgress />}
+      {loading && (
+        <Box my={2}>
+          <PuffLoader color="#123abc" loading={loading} size={60} />
+        </Box>
+      )}
     </Container>
   );
 };

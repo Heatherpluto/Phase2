@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-import { Button, TextField, Typography, Container, Box, CircularProgress } from '@mui/material';
+import { Button, TextField, Typography, Container, Box } from '@mui/material';
+import { PuffLoader } from 'react-spinners';
 
 const Upload: React.FC = () => {
   const [file, setFile] = useState<File | null>(null);
@@ -23,7 +24,6 @@ const Upload: React.FC = () => {
     const formData = new FormData();
     formData.append('file', file);
     setLoading(true);
-
     try {
       const response = await axios.post('https://aifilestoragesystemapi.azurewebsites.net/PdfFiles/PostPdfFile', formData, {
         headers: {
@@ -54,12 +54,16 @@ const Upload: React.FC = () => {
           helperText={fileName}
         />
       </Box>
-      <Box my={2}>
+      <Box my={2} display="flex" justifyContent="center" alignItems="center">
         <Button variant="contained" color="primary" onClick={handleUpload} disabled={loading}>
-          Upload
+          {loading ? 'Uploading...' : 'Upload'}
         </Button>
+        {loading && (
+          <Box ml={2}>
+            <PuffLoader color="#123abc" loading={loading} size={24} />
+          </Box>
+        )}
       </Box>
-      {loading && <CircularProgress />}
       {uploadStatus && (
         <Typography variant="body1" color="error">
           {uploadStatus}
